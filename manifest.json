@@ -1,0 +1,17 @@
+{
+  "short_name": "myapp",
+  "name": "My app",
+  "description": "Progressive Web App",
+  "icons": [
+    {
+      "src": "app.png",
+      "type": "image/png",
+      "sizes": "255x255"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#FFFFFF",
+  "theme_color": "#D0D0D0",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
