@@ -3,9 +3,12 @@ self.addEventListener('install', e => {
     caches.open('realtime_r9').then(cache => {
       return cache.addAll([
         '/',
+        '.',
         'index.html',
         '/manifest.json',
-        'app.png',
+        'gauge.png',
+        'gauge@0,25x.png',
+        'gauge@0,5x.png',
         'reset.min.css',
         'reset.min.css.map',
         'style.min.css',
