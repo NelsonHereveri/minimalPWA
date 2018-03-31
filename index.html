@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0"/>
-  <meta name="theme-color" content="#D0D0D0">
+  <meta charset="UTF-8">
+  <meta name="description" content="PWA de prueba">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0">
+  <meta name="theme-color" content="#009688">
+  <link rel="canonical" href="https://localhost">
   <title>My App</title>
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" type="text/css" href="reset.min.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="style.min.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="print.min.css" media="print">
+  <link rel="stylesheet" type="text/css" href="css/non-critical.min.css" media="none" onload="if(media!='all')media='all'">
+  <noscript>
+    <link rel="stylesheet" type="text/css" href="css/non-critical.min.css" media="all">
+  </noscript>
+  <style type="text/css">body{background:#fff;min-height:100vh;position:relative;margin:0;display:flex;justify-content:center;align-items:center}.wrapper{max-width:500px;margin:auto}img{width:100px;margin:1rem auto;display:block}p{text-align:justify;text-indent:3rem}p+p{margin-top:1rem}</style>
 </head>
 <body>
   <div class="wrapper">
-    <img src="gauge@0,5x.png" alt="My App Icon">
+    <img src="img/gauge@0,5x.png" alt="My App Icon">
     <p>Candy marshmallow dragée gummi bears chocolate bar bear claw lemon drops. Toffee macaroon liquorice tiramisu topping pudding. Halvah cupcake brownie cake topping. Dragée caramels jelly beans muffin sweet roll carrot cake. Cake gummi bears chocolate bar powder toffee powder. Tiramisu tart sweet carrot cake tootsie roll chupa chups sweet roll powder. Ice cream cake carrot cake. Jujubes chocolate sweet roll pastry halvah cheesecake. Toffee brownie pastry wafer.</p>
     <p>Tiramisu jujubes macaroon soufflé marshmallow gummi bears sweet. Candy canes croissant sweet soufflé muffin sesame snaps candy canes dessert sesame snaps. Liquorice sweet roll pie tootsie roll dessert. Macaroon halvah danish croissant ice cream. Halvah wafer donut cake tootsie roll marzipan marshmallow topping. Wafer jujubes lollipop cupcake brownie. Powder sweet fruitcake brownie biscuit chocolate candy canes.</p>
     <p>Bonbon lemon drops sesame snaps caramels. Caramels bonbon candy danish cotton candy. Jelly sesame snaps liquorice. Jelly beans lemon drops muffin. Ice cream jujubes jujubes. Bear claw gummi bears cookie soufflé.</p>

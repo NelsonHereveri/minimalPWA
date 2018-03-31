@@ -1,20 +1,16 @@
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open('realtime_r9').then(cache => {
+    caches.open('pwa_prueba').then(cache => {
       return cache.addAll([
         '/',
         '.',
         'index.html',
-        '/manifest.json',
-        'gauge.png',
-        'gauge@0,25x.png',
-        'gauge@0,5x.png',
-        'reset.min.css',
-        'reset.min.css.map',
-        'style.min.css',
-        'style.min.css.map',
-        'print.min.css',
-        'print.min.css.map'
+        'manifest.json',
+        'css/critical.min.css',
+        'css/non-critical.min.css',
+        'img/gauge.png',
+        'img/gauge@0,25x.png',
+        'img/gauge@0,5x.png'
       ])
       .then(() => self.skipWaiting());
     })

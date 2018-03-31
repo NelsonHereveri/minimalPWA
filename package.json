@@ -1,0 +1,23 @@
+{
+  "name": "minimalPWA",
+  "version": "1.0.0",
+  "description": "Progressive Web Apps mínimo para pruebas de servidor",
+  "main": "index.html",
+  "scripts": {
+    "build-css-critical": "node-sass src/critical.scss src/critical.css; uglifycss --output css/critical.min.css src/critical.css; rm -f src/critical.css",
+    "build-css-noncritical": "node-sass src/non-critical.scss src/non-critical.css; uglifycss --output css/non-critical.min.css src/non-critical.css; rm -f src/non-critical.css",
+    "build-css": "npm run build-css-critical; npm run build-css-noncritical",
+    "build": "npm run build-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NelsonHereveri/minimalPWA.git"
+  },
+  "author": "Nelson Hereveri",
+  "license": "ISC",
+  "homepage": "https://github.com/NelsonHereveri/minimalPWA#readme",
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "uglifycss": "0.0.29"
+  }
+}
