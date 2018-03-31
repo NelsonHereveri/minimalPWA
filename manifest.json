@@ -1,27 +1,27 @@
 {
-  "short_name": "myapp",
-  "name": "My app",
-  "description": "Progressive Web App",
+  "short_name": "minPWA",
+  "name": "Minimal PWA app",
+  "description": "Progressive Web Apps mínimo para pruebas de servidor",
   "icons": [
     {
-      "src": "gauge.png",
+      "src": "img/gauge.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "gauge@0,25x.png",
+      "src": "img/gauge@0,25x.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "gauge@0,5x.png",
+      "src": "img/gauge@0,5x.png",
       "type": "image/png",
       "sizes": "256x256"
     }
   ],
   "start_url": ".",
   "background_color": "#FFFFFF",
-  "theme_color": "#D0D0D0",
+  "theme_color": "#009688",
   "display": "fullscreen",
   "orientation": "portrait"
 }
