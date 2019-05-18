@@ -2,8 +2,6 @@ let CACHE_NAME = 'pwa_prueba';
 
 /* Cualquier archivo que consideres estático (CSS, imágenes, fuentes, JS, plantillas, etc) */
 let STATIC_FILES = [
-  '/',
-  '.',
   'index.html',
   'manifest.json',
   'css/critical.min.css',
